@@ -1,0 +1,75 @@
+
+
+.title {
+    border-bottom: solid #dc3545 5px
+}
+
+.new-list ul {
+    text-align: center;
+}
+
+.item {
+    display: inline-flex;
+}
+
+
+.picture {
+    height: 250px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+
+#footer {
+    background-color: #dc3545;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: #d1ccc0; 
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Montserrat'
+}
+
+.container.wrapper {
+    width: 70%;
+    margin-left: 15%; 
+    margin-right: 15%; 
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15%; 
+    height: 300px; 
+    background-image: url(images/ads/adidas.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+body::after {
+    content: "";
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15%; 
+    height: 300px; 
+    background-image: url(images/ads/snapdragon.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+.wrapper {
+    position: relative;
+    z-index: 2;
+    background-color: #fff; 
+}
